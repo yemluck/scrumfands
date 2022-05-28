@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useHistory, Link } from 'react-router-dom';
 import './LandingPageShipper.css';
 
 // CUSTOM COMPONENTS
@@ -16,7 +16,7 @@ function LandingPageShipper() {
 
     return (
         <div className="container">
-            <h2>{heading}</h2>
+            {/* <h2>{heading}</h2>
 
             <div className="grid">
                 <div className="grid-col grid-col_8">
@@ -60,7 +60,9 @@ function LandingPageShipper() {
                         </button>
                     </center>
                 </div>
-            </div>
+            </div> */}
+            <h2>Coming Soon</h2>
+            <Link to="/DefaultPage"><button className='btn'>Back</button></Link>
         </div>
     );
 }
