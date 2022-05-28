@@ -40,7 +40,7 @@ function LandingPageFlyer() {
 
           <h4> Luggage Safety</h4>
           <p>
-            1.7 million bags was lost in 2019. Unfortunately, flying is not as safe
+            1.7 million bags were lost in 2019. Unfortunately, flying is not as safe
              for your luggage - 2.5 million suitcases were reported lost
               or mishandled between June and September per 1,000 passengers.
           </p>

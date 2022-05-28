@@ -85,6 +85,8 @@ function RegisterForm({type}) {
             name="contact"
             value={contact}
             placeholder="Numbers only"
+            pattern="^[0-9]{10,16}$"
+            title='Minimum of 10 characters'
             required
             onChange={(event) => setContact(event.target.value)}
           />
