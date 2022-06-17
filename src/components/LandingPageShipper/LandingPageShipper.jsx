@@ -16,7 +16,7 @@ function LandingPageShipper() {
 
     return (
         <div className="container">
-            {/* <h2>{heading}</h2>
+            <h2>{heading}</h2>
 
             <div className="grid">
                 <div className="grid-col grid-col_8">
@@ -60,8 +60,7 @@ function LandingPageShipper() {
                         </button>
                     </center>
                 </div>
-            </div> */}
-            <h2>Coming Soon</h2>
+            </div>
             <Link to="/DefaultPage"><button className='btn'>Back</button></Link>
         </div>
     );
