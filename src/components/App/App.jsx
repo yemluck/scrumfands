@@ -27,6 +27,7 @@ import RequestDetail from '../RequestDetail/RequestDetail';
 import ItineraryDetail from '../ItineraryDetail/ItineraryDetail';
 import EditRequest from '../EditRequest/EditRequest';
 import EditItinerary from '../EditItinerary/EditItinerary';
+import PhotoUpload from '../PhotoUpload/PhotoUpload';
 //import background from '../../photos/background3.jpg'; 
 
 import './App.css';
@@ -103,6 +104,15 @@ function App() {
             }
           </ProtectedRoute>
           
+          <ProtectedRoute
+          // demo for picture upload
+          exact
+          path="/photo"
+          >
+            <PhotoUpload />
+          </ProtectedRoute>
+
+
           <ProtectedRoute
             // logged in shows UserPage else shows LoginPage
             exact

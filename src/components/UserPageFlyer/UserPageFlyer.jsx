@@ -109,13 +109,13 @@ function UserPageFlyer() {
     <div className="container">
       <h2>Welcome to your dashboard, {user.first_name}!</h2>
       
-      {/* <div className="userProfileBox">
-        <img src={`/images/${image.path}`} width={150} height={150} alt="upload profile picture" />
+      <div className="userProfileBox">
+        <img src={image.path} width={150} height={150} alt="upload profile picture" />
         <form onSubmit={onUploadPhoto}>
           <input type="file" onChange={(evt) => setPhoto(evt.target.files[0]) }/><br></br>
           <input type="submit" name="upload" vale="upload" />
         </form>
-      </div> */}
+      </div>
       <div className="itineraryBox">
         
         {
