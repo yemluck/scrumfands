@@ -2,8 +2,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useHistory, useParams } from 'react-router-dom';
 import axios from 'axios';
 import { useEffect } from 'react';
-import './EditRequest.css'
-
 
 function EditRequest(){
 
