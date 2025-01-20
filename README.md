@@ -1,4 +1,3 @@
-    
 # Fly&Ship
 
 ## Table of Contents
@@ -16,7 +15,6 @@
 ## Description
 
 This project is about a peer to peer web application to connect frequent flyers to people interested in shipping packages internationally.
-
 
 ## Built With
 
@@ -38,8 +36,6 @@ This version uses React, Redux, Express, Passport, and PostgreSQL (a full list o
 To test the application. you need to create a database named solo-project.
 
 then copy the contents of database.sql into the sql query
-
-
 
 ### Prerequisites
 
@@ -64,15 +60,7 @@ Before you get started, make sure you have the following software installed on y
 
 ## Usage
 
-To use the app, you have to register as a flyer or a shipper. As a flyer,  you are prompted to fill a form to create a new itinerary. A shipper on the other hand has to create a request form. Shipping requests are matched with itineraries and the user with the request is giving access to contact the user with the itinerary.
-
-## Lay of the Land
-
-There are a few videos linked below that show a walkthrough the client and sever setup to help acclimatize to the boilerplate. Please take some time to watch the videos in order to get a better understanding of what the boilerplate is like.
-
-- [Initial Set](https://vimeo.com/453297271)
-- [Server Walkthrough](https://vimeo.com/453297212)
-- [Client Walkthrough](https://vimeo.com/453297124)
+To use the app, you have to register as a flyer or a shipper. As a flyer, you are prompted to fill a form to create a new itinerary. A shipper on the other hand has to create a request form. Shipping requests are matched with itineraries and the user with the request is giving access to contact the user with the itinerary.
 
 Directory Structure:
 
@@ -95,12 +83,6 @@ This code is also heavily commented. We recommend reading through the comments, 
   - LogOutButton/LogOutButton
   - ProtectedRoute/ProtectedRoute
 
-
-
-## Acknowledgements
-
-I acknowledge my Prime Woodall cohort, my instructor, my pod mates and everyone who contributed to the success of this project
-
 ## Contacts
 
-<a href="https://www.linkedin.com/in/yemluck/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>  <a href="mailto:yemluck@gmail.com"><img src=https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/email_me_button_icon_151852.svg /></a>
+<a href="https://www.linkedin.com/in/yemluck/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="mailto:yemluck@gmail.com"><img src=https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/email_me_button_icon_151852.svg /></a>
